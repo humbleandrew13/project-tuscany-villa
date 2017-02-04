@@ -1,2 +1,25 @@
 ﻿body {
+    background-color: #D2D4D2;
 }
+
+.page-header{
+    border:none;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+.page-header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.page-header h2{
+    margin-top: 0px;
+    font-family: 'Allura', cursive;
+}
+
+nav {
+    border: none;
+    }
