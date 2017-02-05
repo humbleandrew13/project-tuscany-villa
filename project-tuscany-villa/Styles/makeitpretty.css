@@ -63,9 +63,10 @@ nav {
 }
 
 .navbar-right {
-    background-color: #84BCD7;
+    background-color: #5BC0DE;
     color: #FFFFFF;
 }
+
 
 /*MAIN 'GRID' STYLE*/
 .panel {
@@ -76,6 +77,10 @@ nav {
     border: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+}
+
+#big-top-left, #big-top-right{
+    height: 640px;
 }
 
 .thumbnail {
@@ -114,7 +119,7 @@ nav {
     background-color: #5E5E5E;
     color: #FFFFFF;
     position: absolute;
-    top: 30%;
+    top: 40%;
     width: 50%;
     text-align: center;
     padding-left: 2px;
