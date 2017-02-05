@@ -94,6 +94,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\314-348x348.jpg" />
+    <Content Include="Images\3b-348x348.jpg" />
+    <Content Include="Images\42-348x348.jpg" />
+    <Content Include="Images\box_partners.png" />
+    <Content Include="Images\hospital-bed.png" />
+    <Content Include="Images\img-thing.jpg" />
+    <Content Include="Images\Landscape-Villa-Oliva-Garden-Lucca-Tuscany-832044.jpg" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\palace.jpg" />
+    <Content Include="Images\people-silhouettes.png" />
+    <Content Include="Images\shower.png" />
+    <Content Include="Images\tuscany-villas-sant-anna.jpg" />
+    <Content Include="Images\Versilia.jpg" />
+    <Content Include="Images\Villa-Rucellai-Toscani-2750-2-348x348.jpg" />
+    <Content Include="Images\Villa-Rucellai-Toscani-2812-2-348x348.jpg" />
+    <Content Include="Images\Villa-Vanna-231-348x348.jpg" />
+    <Content Include="Images\Villa_Maund_Gaststube,_Böhringer.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -107,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="makeitpretty.css" />
+    <Content Include="Styles\makeitpretty.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

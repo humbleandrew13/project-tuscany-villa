@@ -17,10 +17,13 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <link href="makeitpretty.css" rel="stylesheet" />
+    <link href="Styles/makeitpretty.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -31,8 +34,8 @@
     </div>
 
     <!--NAVBAR-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default container-fluid">
+        <div class="navbar container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -45,11 +48,13 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CITIES</a></li>
-                    <li><a href="#">CONTACTS</a></li>
-                </ul>
+                <div id="centerit">
+                    <ul class="nav navbar-nav" id="nav">
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CITIES</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                    </ul>
+                </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Properties</a></li>
                 </ul>
@@ -57,87 +62,76 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-    <!--LARGERIMAGE-->
-    <div class="row">
-        <div class="col-md-9">Bigger Pic</div>
-        <div class="col-md-3">Smaller Pic</div>
-    </div>
-
-    <!--THUMBNAILS-->
+    <!--FIRSTROW-->
     <div class="row container-fluid">
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-12 col-sm-12 col-md-8 col-lg-9">
+            <div class="thumbnail image">
+                <img class="grid img-responsive" src="Images/palace.jpg" />
+                <div class="inside-text">
+                    <h3>FEEL LIKE HOME AWAY FROM HOME</h3>
+                    <p>FIND YOUR EXCLUSIVE TUSCANY VILLA FOR HOLIDAYS</p>
+                </div>
+            </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-9 col-sm-9 col-md-4 col-lg-3">
+            <div class="thumbnail image">
+                <img class="grid img-responsive" src="Images/Versilia.jpg" />
+                <div class="inside-text" id="top-right">
+                    <h3>FIND YOUR TUSCANY VILLA</h3>
+                    <p>EXPLORE THE MAP</p>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!--SECONDROW-->
     <div class="row container-fluid">
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-12 col-sm-12 col-md-4 col-lg-3">
+            <div class="thumbnail">
+              <div class="grid border" id="top-left">
+                <br /><br /><h4>SOME</h4><h4>ACCOMMODATION</h4><h4>IDEAS FOR A</h4><h4>PERFECT STAY</h4>
+                  <br />
+                  <p>YOUR DREAMS, OUR JOB!</p>
+                  </div>
+            </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-12 col-sm-12 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <img class="grid border img-responsive" src="Images/Villa_Maund_Gaststube,_Böhringer.jpg" />
+                <div class="inside-text">
+                    <h3>WEDDINGS</h3>
+                    <p>56 ACCOMMODATIONS</p>
+                </div>
+            </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-12 col-sm-12 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <img class="grid border img-responsive" src="Images/42-348x348.jpg" />
+                <div class="inside-text">
+                    <h3>FRIENDS</h3>
+                    <p>56 ACCOMMODATIONS</p>
+                    </div>
+            </div>
         </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
+        <div class="panel col-xs-12 col-sm-12 col-md-4 col-lg-3">
+            <div class="thumbnail">
+                <img class="grid border img-responsive" src="Images/Villa-Rucellai-Toscani-2750-2-348x348.jpg" />
+                <div class="inside-text">
+                    <h3>FAMILY</h3>
+                    <p>56 ACCOMMODATIONS</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="row container-fluid">
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-3">
-            <a href="#" class="thumbnail">
-                <img src="..." alt="...">
-            </a>
-        </div>
-    </div>
 
     <!--FOOTER-->
     <div class="footer container-fluid">
-        <footer>
-            <p>Footer with all the icons and junk.</p>
-        </footer>
+        <div class="copyright-stuff">
+            <br />
+            &copy;2017 Bacon ipsum dolor amet short loin frankfurter sirloin alcatra, chicken biltong sausage pancetta. Rump pork belly tail shank.
+            <i class="fa fa-google-plus"></i><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i>
+        </div>
     </div>
 </body>
 </html>
