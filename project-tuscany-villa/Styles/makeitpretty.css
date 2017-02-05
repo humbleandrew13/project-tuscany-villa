@@ -50,6 +50,11 @@ nav {
     background-color: white;
 }
 
+.navbar-header {
+    background-color: white;
+    padding-right: 15px;
+}
+
 .navbar-collapse {
     text-align: center;
     background-color: white;
@@ -57,9 +62,19 @@ nav {
     height: 51px;
 }
 
+.collapsed {
+    background-color: white;
+}
+
 .navbar-brand {
-    background-color: #4FB1A2;
-    color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
 }
 
 .navbar-right {
@@ -79,7 +94,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-#big-top-left, #big-top-right{
+#big-top-left, #big-top-right {
     height: 640px;
 }
 
@@ -120,10 +135,39 @@ nav {
     color: #FFFFFF;
     position: absolute;
     top: 40%;
-    width: 50%;
+    width: 60%;
     text-align: center;
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.bottom-text {
+    background-color: #5E5E5E;
+    color: #FFFFFF;
+    position: absolute;
+    top: 70%;
+    width: 94%;
+    height: 86px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+    .bottom-text ul li {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+.bottom-text-right {
+    background-color: #53B0A1;
+    position: absolute;
+    width: 95px;
+    height: 86px;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
 }
 
 #top-right {
@@ -142,12 +186,59 @@ nav {
         color: #8AC5BB;
     }
 
+.text-grid {
+    padding-top: 40px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.text-grid .btn{
+    display: inline-block;
+    color: #82bfd8;
+    border: 1px solid #82bfd8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+#blue-grid{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #53BCDC;
+    color: #FFFFFF;
+}
+
+#inside-blue-grid{
+    border: 2px solid white;
+    background-color: #53BCDC;
+    color: #FFFFFF;
+    padding-bottom:8px;
+}
+
+#blue-grid h1{
+    font-size:55px;
+}
+
+#blue-grid h1, h4{
+    margin-top: 8px;
+    margin-bottom: 8px; 
+}
+
+#blue-grid .btn{
+    display: inline-block;
+    color: #2b7e71;
+    border: 1px solid #2b7e71;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
 
 /*FOOTER STYLE*/
 .footer {
     background-color: #F0DDEE;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 20px;
     padding-left: 0px;
     padding-right: 0px;
 }
