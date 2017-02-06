@@ -192,15 +192,15 @@ nav {
     text-align: center;
 }
 
-.text-grid .btn{
-    display: inline-block;
-    color: #82bfd8;
-    border: 1px solid #82bfd8;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
+    .text-grid .btn {
+        display: inline-block;
+        color: #82bfd8;
+        border: 1px solid #82bfd8;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
 
-#blue-grid{
+#blue-grid {
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -208,28 +208,33 @@ nav {
     color: #FFFFFF;
 }
 
-#inside-blue-grid{
+#inside-blue-grid {
     border: 2px solid white;
     background-color: #53BCDC;
     color: #FFFFFF;
-    padding-bottom:8px;
+    padding-bottom: 8px;
 }
 
-#blue-grid h1{
-    font-size:55px;
+#blue-grid h1 {
+    font-size: 55px;
 }
 
-#blue-grid h1, h4{
+#blue-grid h1, h4 {
     margin-top: 8px;
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
 }
 
-#blue-grid .btn{
+#blue-grid .btn {
     display: inline-block;
     color: #2b7e71;
     border: 1px solid #2b7e71;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+}
+
+#last img {
+    display: block;
+    margin: auto;
 }
 
 
